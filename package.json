@@ -1,0 +1,14 @@
+{
+  "name": "@sandsoftwaresolutions/problem-details",
+  "version": "0.1.0",
+  "description": "Small RFC 9457 Problem Details helpers for JSON APIs.",
+  "type": "module",
+  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js" } },
+  "files": ["src", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test", "pack:check": "npm pack --dry-run" },
+  "keywords": ["api", "errors", "rfc9457", "problem-details", "http"],
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}
