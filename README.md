@@ -6,6 +6,8 @@ Small, dependency-free helpers for [RFC 9457 Problem Details](https://www.rfc-ed
 npm install @sandsoftwaresolutions/problem-details
 ```
 
+Works with `import` and `require()`, and ships TypeScript types for both.
+
 ```js
 import { problemResponse } from "@sandsoftwaresolutions/problem-details";
 
